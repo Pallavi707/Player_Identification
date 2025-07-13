@@ -10,3 +10,4 @@ __pycache__/
 
 # Ignore macOS metadata
 .DS_Store
+best.pt
