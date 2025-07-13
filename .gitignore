@@ -1,0 +1,12 @@
+# Ignore virtual environment
+envv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+*.ipynb_checkpoints/
+
+# Ignore macOS metadata
+.DS_Store
