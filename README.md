@@ -17,7 +17,7 @@ Project Folder/
 ├── Videos/
 │   ├── broadcast.mp4       # Broadcast view of the game
 │   └── tacticam.mp4        # Tacticam view of the game
-├── Results/
+├── Results/                # Contains the tracked id video of players
 │   ├── broadcast_tracked.mp4
 │   └── tacticam_remapped.mp4
 ├── Player_ID_Detection.ipynb # For cheking the result of best.pt model
