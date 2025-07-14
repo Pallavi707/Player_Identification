@@ -14,7 +14,7 @@ We use a combination of YOLOv11 (for player detection), DeepSORT (for short-term
 Project Folder/
 ├── Main.ipynb                 # Main script for running the pipeline
 ├── README.md               # This file
-├── Assignment Materials/
+├── Videos/
 │   ├── broadcast.mp4       # Broadcast view of the game
 │   └── tacticam.mp4        # Tacticam view of the game
 ├── Results/
@@ -50,15 +50,6 @@ Download the provided YOLOv11 fine-tuned model and place it as:
 
 ```
 best.pt  -->  /content/drive/MyDrive/Stealth_Mode/best.pt
-```
-
-### 3. Download OSNet Pretrained Weights
-
-Place the file `osnet_x1_0_imagenet.pth` inside the root directory or `~/.cache/torch/checkpoints/`.
-You can download it from:
-
-```
-https://github.com/KaiyangZhou/deep-person-reid/releases
 ```
 
 ---
