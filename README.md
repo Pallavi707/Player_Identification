@@ -27,9 +27,15 @@ Project Folder/
 
 ## Setup Instructions
 
-### 1. Install Dependencies
+### 1. Create and setup the conda environment and then Install Dependencies
 
 Ensure you're using Python 3.8+ and run:
+
+```bash
+conda create -n envv python=3.8 -y
+conda activate envv
+```
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -44,17 +50,17 @@ pip install -r requirements.txt
 * scikit-learn
 * torchreid
 
-### 2. Download Detection Model
+### 3. Download Detection Model
 
 Download the provided YOLOv11 fine-tuned model and place it as:
 
 ```
-best.pt  -->  /content/drive/MyDrive/Stealth_Mode/best.pt
+best.pt  -->  best.pt
 ```
 
 ---
 
-## How to Run
+### 4. How to Run
 
 ```bash
 python main.py
